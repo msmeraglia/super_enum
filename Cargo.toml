@@ -1,0 +1,13 @@
+[package]
+name = "super_enum"
+version = "0.1.0"
+edition = "2021"
+authors = ["Matthew Smeraglia"]
+
+[lib]
+proc-macro = true
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+quote = "1.0.21"
+proc-macro2 = "1.0.47"
+syn = { version = "1.0.103", features = ["full"] }
